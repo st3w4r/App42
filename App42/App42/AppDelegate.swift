@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  App42
 //
-//  Created by Yanaël Barbier on 13/12/2014.
-//  Copyright (c) 2014 Yanael Barbier. All rights reserved.
+//  Created by skerkour on 13/12/2014.
+//  Copyright (c) 2014 skerkour. All rights reserved.
 //
 
 import UIKit

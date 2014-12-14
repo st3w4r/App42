@@ -15,6 +15,7 @@
 		7AF973471A3C9D7900A3D62B /* App42Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF973461A3C9D7900A3D62B /* App42Tests.swift */; };
 		7AF973511A3CA58300A3D62B /* HnTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF973501A3CA58300A3D62B /* HnTableViewController.swift */; };
 		7AF973531A3CA91200A3D62B /* ApiHn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF973521A3CA91200A3D62B /* ApiHn.swift */; };
+		CEFAA09F1A3E0CFF0034445A /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFAA09E1A3E0CFF0034445A /* Story.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		7AF973461A3C9D7900A3D62B /* App42Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App42Tests.swift; sourceTree = "<group>"; };
 		7AF973501A3CA58300A3D62B /* HnTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HnTableViewController.swift; sourceTree = "<group>"; };
 		7AF973521A3CA91200A3D62B /* ApiHn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiHn.swift; sourceTree = "<group>"; };
+		CEFAA09E1A3E0CFF0034445A /* Story.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				7AF9732C1A3C9D7900A3D62B /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 1;
 		};
 		7AF9732C1A3C9D7900A3D62B /* Products */ = {
 			isa = PBXGroup;
@@ -84,8 +87,9 @@
 				7AF973301A3C9D7900A3D62B /* AppDelegate.swift */,
 				7AF973321A3C9D7900A3D62B /* ViewController.swift */,
 				7AF973501A3CA58300A3D62B /* HnTableViewController.swift */,
-				7AF973521A3CA91200A3D62B /* ApiHn.swift */,
 				7AF973341A3C9D7900A3D62B /* Main.storyboard */,
+				7AF973521A3CA91200A3D62B /* ApiHn.swift */,
+				CEFAA09D1A3E0C8E0034445A /* Model */,
 				7AF973371A3C9D7900A3D62B /* Images.xcassets */,
 				7AF973391A3C9D7900A3D62B /* LaunchScreen.xib */,
 				7AF9732E1A3C9D7900A3D62B /* Supporting Files */,
@@ -116,6 +120,14 @@
 				7AF973451A3C9D7900A3D62B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEFAA09D1A3E0C8E0034445A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CEFAA09E1A3E0CFF0034445A /* Story.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,7 +175,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0610;
-				ORGANIZATIONNAME = "Yanael Barbier";
+				ORGANIZATIONNAME = skerkour;
 				TargetAttributes = {
 					7AF9732A1A3C9D7900A3D62B = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -222,6 +234,7 @@
 				7AF973311A3C9D7900A3D62B /* AppDelegate.swift in Sources */,
 				7AF973531A3CA91200A3D62B /* ApiHn.swift in Sources */,
 				7AF973511A3CA58300A3D62B /* HnTableViewController.swift in Sources */,
+				CEFAA09F1A3E0CFF0034445A /* Story.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +428,7 @@
 				7AF9734C1A3C9D7900A3D62B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7AF9734D1A3C9D7900A3D62B /* Build configuration list for PBXNativeTarget "App42Tests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +437,7 @@
 				7AF9734F1A3C9D7900A3D62B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
